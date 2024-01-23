@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+@media (max-width:868px){
+    .parent{
+        max-width: 400PX;
+        text-align: center;
+    }
+
+}
+.parent{
+    text-align: center;
+    width: 420px;
+    height: 420px;
+    margin: 100px auto;
+    box-shadow: 20px 27px 10px -10px rgba(0,0,0,.75);
+    border-radius: 20px;
+}
+.parent .container{
+    background-color: #0e4bf1;
+    border-radius: 20px 20px 0 0;
+    height: 140px;
+}
+.parent .proflie{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 3px solid #4070f4;
+    object-fit: cover;
+    padding: 3px;
+    background: #fff;
+    margin-top: 30px;
+
+
+}
+.parent .name{
+    margin-top: 50px;
+}
+.parent .name h2{
+    margin-bottom: 20px;
+}
+.parent .name p{
+    font-size: 19px;
+    margin-bottom: 25px;
+}
+.parent .icons{
+    width: 80%;
+    margin: auto;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+.parent .icons .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 34px;
+    height: 34px;
+    margin: 0 25px;
+    border-radius: 50%;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.parent .bottons{
+    margin: 20px 0;
+}
+.parent button{
+    width: 120px;
+    height: 30px;
+    border-radius: 25px;
+    background: #3262e6;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.parent button:hover{
+    background-color: #0044ff;
+}
+.parent .bottons .message{
+    margin-right: 10px;
+}
